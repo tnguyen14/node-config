@@ -1,0 +1,30 @@
+{
+  "name": "@tridnguyen/config",
+  "version": "1.0.0",
+  "description": "Import config from file safely with defaults",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "tnguyen14/config",
+  "keywords": [
+    "config",
+    "require",
+    "defaults",
+    "assign",
+    "extend"
+  ],
+  "author": {
+    "name": "Tri Nguyen",
+    "email": "tri@tridnguyen.com",
+    "url": "tridnguyen.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tnguyen14/config/issues"
+  },
+  "homepage": "https://github.com/tnguyen14/config#readme",
+  "dependencies": {
+    "lodash.assign": "^3.2.0"
+  }
+}
