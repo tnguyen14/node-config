@@ -5,7 +5,7 @@ module.exports = function (configPath, defaults) {
 	var config = defaults || {};
 	try  {
 		config = assign(config, require(configPath));
-	} catch () {
+	} catch (e) {
 	}
 	return config;
 }
