@@ -4,7 +4,7 @@
 ## Installation
 
 ```sh
-:; npm install --save tridnguyen/config
+:; npm install --save @tridnguyen/config
 ```
 
 ## Usage
