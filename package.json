@@ -1,6 +1,6 @@
 {
   "name": "@tridnguyen/config",
-  "version": "1.2.0",
+  "version": "2.2.0",
   "description": "Import config from file safely with defaults",
   "main": "index.js",
   "scripts": {
