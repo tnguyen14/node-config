@@ -42,6 +42,8 @@ module.exports = function (defaults, configPath, opts) {
 
 	if (_opts.caller) {
 		_configPath = path.resolve(path.dirname(caller()), _configPath);
+	} else {
+		_configPath = path.resolve(process.cwd(), _configPath);
 	}
 
 	try {
