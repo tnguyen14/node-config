@@ -49,7 +49,9 @@ module.exports = function (defaults, configPath, opts) {
 	try {
 		config = assign(config, require(_configPath));
 	} catch (e) {
-		console.error(e);
+		if (opts.verbose) {
+			console.error(e);
+		}
 	}
 	return config;
 };
