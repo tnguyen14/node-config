@@ -1,4 +1,6 @@
 # config
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/tnguyen14/config.svg)](https://greenkeeper.io/)
 > Import config from file safely with defaults
 
 ## Installation
