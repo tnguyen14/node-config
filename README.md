@@ -22,5 +22,5 @@ var options = config({
 
 - **defaults** {Object} - default options for config. **Defaults to `{}`**
 - **configPath** {String} - the path to the config file. It could be either a JSON or JS file
-- **opts.caller** {Boolean} - whether the config file path is relative to the script that calls `config`, or relative to the current working directory ([`process.cwd()`](https://nodejs.org/api/process.html#process_process_cwd)). **Defaults to `true`**
+- **opts.caller** {Boolean} - whether the config file path is relative to the script that calls `config`, or relative to the current working directory ([`process.cwd()`](https://nodejs.org/api/process.html#process_process_cwd)). **Defaults to `true`**, which is relative to the calling script.
 - **opts.verbose** {Boolean} - verbose **Defaults to `false`**
